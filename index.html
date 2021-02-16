@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <script defer src="/node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script> -->
+    <title>music player</title>
+</head>
+<body>
+    <div class="card">
+        <div class="menu">
+            <i class="fas fa-chevron-left"></i>
+            <i id='menu' class="fas fa-bars"></i>
+        </div>
+        
+        <div class="details">
+            <img src="img/cover2.jpg" id='cover' alt="cover">
+            <br>
+            <h2>Hundred Dollar Bill</h2>
+            <span style='color: #666'>Lana Del Rey</span>
+        </div>
+        <br>
+        <div class="slider-container">
+            <img src="img/wave.png" alt="bg">
+            <div class="slider">
+                <div class="circle"></div>
+            </div>
+           <span>2:20</span>
+           <span style="float:right">1:49</span>
+        </div>
+        <br>
+        <div class="buttons">
+            <!-- <i class="fas fa-random"></i> -->
+            <div class="circle" style='width: 40px; height: 40px'>
+                <i class="fa fa-backward" style="font-size: 20px"></i>
+            </div>
+                <div class="circle">
+                    <i class="fas fa-play" id='center' style="font-size: 40px"></i>
+                </div>
+                <div class="circle" style='width: 40px; height: 40px'>
+                    <i class="fa fa-forward"style="font-size: 20px"></i>
+                </div>
+            <!-- <i class="fas fa-redo"></i> -->
+        </div>
+
+
+
+
+
+
+        <div class="album" id='album'>
+            <div class="menu">
+                <i id='back' class="fas fa-chevron-left"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="header">
+                <img src="img/cover2.jpg" alt="cover1">
+
+                <span>
+                    <h1>Die for me</h1>
+                    <h3>Lana Del Rey</h3>
+                </span>
+            </div>
+            <div class="slider-container" style="background:#3f3f3f">
+                 <div class="slider">
+                    <div class="circle"></div>
+                 </div>
+                 <span>2:20</span>
+                 <span style="float:right">1:49</span>
+            </div>
+           
+            <div class="control">
+                <i class="fas fa-step-backward"></i>
+                <i class="fa fa-backward"></i>
+                <i class="fas fa-pause"></i>
+                <i class="fa fa-forward"></i>
+                <i class="fas fa-random"></i>
+                <i class="fas fa-redo"></i>
+                <i class="fas fa-volume-down"></i>
+            </div>
+            <div class="tracklist">
+                <div class="track">
+                    <p>Driving In Cars With Boys<span>3:45</span></p>
+                </div>
+                <div class="track">
+                    <p>Prom Song (Gone Wrong)<span>3:25</span></p>
+                </div>
+                <div class="track">
+                    <p>Chelsea Hotel No. 2<span>4:01</span></p>
+                </div>
+                <div class="track">
+                    <p id='playing'><i class="fas fa-angle-double-right"></i> Hundred Dollar Bill<span>3:45</span></p>
+                </div>
+                <div class="track">
+                    <p>Put The Radio On<span>3:10</span></p>
+                </div>
+                <div class="track">
+                    <p>Dangerous Girl<span>2:45</span></p>
+                </div>
+                <div class="track">
+                    <p>Push Me Down<span>3:55</span></p>
+                </div>
+                <div class="track">
+                    <p>Heavy Hitter<span>4:16</span></p>
+                </div>
+                <div class="track">
+                    <p>Serial Killer<span>2:34</span></p>
+                </div>
+                <div class="track">
+                    <p>Velvet Crowbar<span>4:00</span></p>
+                </div>
+           
+            </div>
+        </div>
+
+        <div class="artist" id='artist'>
+            
+            <div class="bg"> 
+            </div>
+            <div class="menu">
+                <i id='home' class="fas fa-chevron-left"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="profile">
+                <img src="img/profile/profile1.jpg" alt="profile">
+            </div>
+            <div class="details">
+                <h3>Lana Del Rey</h3> 
+                <span>pop</span>       
+            </div>
+            
+            <div class="control">
+                <i class="fas fa-play"> play all</i>
+                <i class="far fa-user"> artist bio</i>
+                <i class="fas fa-random"> shuffle</i>
+                <i class="fas fa-plus"> add to</i>
+            </div>
+            <div class="content">
+                <img src="img/albums/album1.jpg" alt="album">
+                <img src="img/albums/album2.jpg" alt="album">
+                <img src="img/albums/album3.jpg" alt="album">
+                <img src="img/albums/album4.jpg" alt="album">
+                <img src="img/albums/album5.jpg" alt="album">
+                <img src="img/albums/album6.jpg" alt="album">
+                <img src="img/albums/album7.jpg" alt="album">
+                <img src="img/albums/album9.jpg" alt="album">
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
